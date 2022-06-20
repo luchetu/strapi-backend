@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "accessories_pages",
+  "info": {
+    "singularName": "accessories-page",
+    "pluralName": "accessories-pages",
+    "displayName": "AccessoriesPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "accessories_banner": {
+      "type": "component",
+      "repeatable": true,
+      "component": "model.pages-banner"
+    },
+    "accessories": {
+      "type": "component",
+      "repeatable": true,
+      "component": "model.accessories"
+    },
+    "model": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::model.model"
+    }
+  }
+}

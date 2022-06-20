@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_model_picked_models",
+  "info": {
+    "displayName": "pickedModels",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "models": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::model.model"
+    }
+  }
+}

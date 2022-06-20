@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_model_accessories",
+  "info": {
+    "displayName": "Accessories",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "caption": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

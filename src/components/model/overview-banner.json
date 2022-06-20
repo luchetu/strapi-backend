@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_model_overview_banners",
+  "info": {
+    "displayName": "overview banner",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner_media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_overview_overview_variant_descriptions",
+  "info": {
+    "displayName": "Overview variant description",
+    "icon": "arrow-circle-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "specs_title": {
+      "type": "text"
+    },
+    "specs_description": {
+      "type": "richtext",
+      "required": true
+    },
+    "specs_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "specs_caption": {
+      "type": "string",
+      "required": true
+    },
+    "specs_further_information": {
+      "type": "richtext"
+    }
+  }
+}

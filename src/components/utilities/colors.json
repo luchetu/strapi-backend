@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_utilities_colors",
+  "info": {
+    "displayName": "Buttons",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "green"
+      ],
+      "required": true
+    }
+  }
+}

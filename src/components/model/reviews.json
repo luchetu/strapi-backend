@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_model_reviews",
+  "info": {
+    "displayName": "reviews",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "reviewer_logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "review_text": {
+      "type": "richtext",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_model_variant_colors",
+  "info": {
+    "displayName": "variantColors",
+    "icon": "atom",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "colors": {
+      "type": "enumeration",
+      "enum": [
+        "red",
+        "black",
+        "white",
+        "blue"
+      ]
+    },
+    "front_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "back_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "side_image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

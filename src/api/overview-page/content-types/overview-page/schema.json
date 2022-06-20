@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "overview_pages",
+  "info": {
+    "singularName": "overview-page",
+    "pluralName": "overview-pages",
+    "displayName": "OverviewPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "overview_banner": {
+      "displayName": "overview banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "model.overview-banner"
+    },
+    "variant_colors": {
+      "type": "component",
+      "repeatable": true,
+      "component": "model.variant-colors"
+    },
+    "overview_descriptions": {
+      "displayName": "Overview variant description",
+      "type": "component",
+      "repeatable": true,
+      "component": "overview.overview-variant-description"
+    },
+    "extended_benefits": {
+      "displayName": "Extended Purchase Benefits",
+      "type": "component",
+      "repeatable": true,
+      "component": "model.extended-purchase-benefits"
+    },
+    "models": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::model.model"
+    }
+  }
+}

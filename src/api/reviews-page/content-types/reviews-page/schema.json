@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "reviews_pages",
+  "info": {
+    "singularName": "reviews-page",
+    "pluralName": "reviews-pages",
+    "displayName": "ReviewsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "review_component": {
+      "type": "component",
+      "repeatable": true,
+      "component": "model.reviews"
+    },
+    "review_banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "model.pages-banner"
+    }
+  }
+}

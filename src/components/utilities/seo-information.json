@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_utilities_seo_informations",
+  "info": {
+    "displayName": "seoInformation",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "seoTitle": {
+      "type": "string"
+    },
+    "seoDescription": {
+      "type": "text"
+    }
+  }
+}

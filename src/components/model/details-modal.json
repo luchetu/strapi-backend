@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_model_details_modals",
+  "info": {
+    "displayName": "DetailsModal",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

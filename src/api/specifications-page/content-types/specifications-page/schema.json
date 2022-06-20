@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "specifications_pages",
+  "info": {
+    "singularName": "specifications-page",
+    "pluralName": "specifications-pages",
+    "displayName": "SpecificationsPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "specs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "model.feature-and-specs"
+    },
+    "specs_banner": {
+      "displayName": "Pages Banner",
+      "type": "component",
+      "repeatable": false,
+      "component": "model.pages-banner"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_layout_do_the_fun_sections",
+  "info": {
+    "displayName": "DoTheFunSection",
+    "icon": "grin-tears"
+  },
+  "options": {},
+  "attributes": {
+    "caption": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

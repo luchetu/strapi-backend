@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_model_model_ranges",
+  "info": {
+    "displayName": "ModelRange",
+    "icon": "warehouse",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "models": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::model.model"
+    }
+  }
+}

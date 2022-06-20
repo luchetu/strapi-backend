@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_model_model_details",
+  "info": {
+    "displayName": "ModelDetails",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "details_headline": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    },
+    "modals": {
+      "type": "component",
+      "repeatable": true,
+      "component": "model.details-modal"
+    }
+  }
+}

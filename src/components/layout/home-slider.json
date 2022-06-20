@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_layout_home_sliders",
+  "info": {
+    "displayName": "HomeHeroSection",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "home_slider": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "pickedModels": {
+      "type": "component",
+      "repeatable": false,
+      "component": "model.picked-models"
+    }
+  }
+}

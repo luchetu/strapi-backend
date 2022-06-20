@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_model_pages_banners",
+  "info": {
+    "displayName": "Pages Banner",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "image_banner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "banner_headline": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

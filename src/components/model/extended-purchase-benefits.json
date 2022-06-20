@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_model_extended_purchase_benefits",
+  "info": {
+    "displayName": "Extended Purchase Benefits",
+    "icon": "arrow-up"
+  },
+  "options": {},
+  "attributes": {
+    "benefit": {
+      "type": "string",
+      "required": true
+    },
+    "years": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "link_text": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
